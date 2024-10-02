@@ -13,13 +13,27 @@ import string
 #     print (val[6])
 #     print(val[5])
 
+    #tip calculator
 
-def tip_calculate():
-    total_price = float(input("enter total bill: $"))
-    tip_precent = float(input("enter tip based on satisfaction: "))
-    tip_amount = (tip_precent / 100) * total_price
-    With_tip = tip_amount + total_price
-    print(f"Tip precent: ${tip_precent:.2f}")
-    print(f'total amount (including tip): {With_tip:.2f}')
 
-tip_calculate()
+# def tip_calculate():
+#     total_price = float(input("Enter total bill: $"))
+#     tip_percent = float(input("Enter tip based on satisfaction: "))
+#     tip_amount = (tip_percent / 100) * total_price
+#     with_tip = tip_amount + total_price
+
+#     print(f"Tip: ${tip_amount:.2f}")
+    
+#     # ANSI escape codes
+#     RED = "\033[31m"
+#     RESET = "\033[0m"  # Reset code to return to default color
+
+#     print(RED + f'Total amount (including tip): ${with_tip:.2f}' + RESET)
+
+# tip_calculate()
+
+x = "this is a thing"
+y= x.split( )
+z = y[0]
+print(y)
+print(z)
