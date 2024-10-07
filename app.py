@@ -32,8 +32,8 @@ import string
 
 # tip_calculate()
 
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+sentence = input("input sentence:")
+word = sentence.split( )
+num_words = len(word)
+print("number of words in sentence is:",num_words)
+
