@@ -32,8 +32,14 @@ import string
 
 # tip_calculate()
 
-sentence = input("input sentence:")
-word = sentence.split( )
-num_words = len(word)
-print("number of words in sentence is:",num_words)
+# sentence = input("input sentence:")
+# word = sentence.split( )
+# num_words = len(word)
+# print("number of words in sentence is:",num_words)
 
+number = int(input("input number:"))
+remainder = number % 2
+if remainder == 0:
+    print("even")
+else:
+    print("odd")
