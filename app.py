@@ -44,26 +44,37 @@ import string
 # else:
 #     print("odd")
 
-def tip_calculate():
+# def tip_calculate():
      
-    tip_percent = {
-        'bad': 0.00,
-        'okay': 0.15,
-        'good': 0.20,
-        'amazing': 0.25
-    }
-        Bill = float(input("enter total bill: $"))
+#     tip_percent = {
+#         'bad': 0.00,
+#         'okay': 0.15,
+#         'good': 0.20,
+#         'amazing': 0.25
+#     }
+#     Bill = float(input("enter total bill: $"))
     
-    service = input("how was your experience?(bad, okay, good, amazing): ")
+#     service = input("how was your experience?(bad, okay, good, amazing): ").lower()
 
-if service part of tip_percent
-      tip_amount = Bill * tip_percent
-      total_amount = tip_amount + Bill
+#     if service in tip_percent:
+#       tip_amount = Bill * tip_percent[service]
+#       total_amount = tip_amount + Bill
+#     if total_amount < 100:
+#         print(f"your total is: $ {total_amount:.2f}")
+#     else:
+#         print(f"you shall pay: $ {total_amount:.2f} or else...")
+# tip_calculate()
 
-     total_price = float(input("Enter total bill: $"))
-     print 
-     tip_percent = float(input("bad", "okay", "good", "great"))
-     tip_amount = (tip_percent / 100) * total_price
-     with_tip = tip_amount + total_price
 
-     print(f"Tip: ${tip_amount:.2f}")
+# def detremine_factors(number):
+#     factors = []
+#     for i in range(1, number + 1):
+#         if number % i == 0:
+#             factors.append(i)
+#     return factors
+
+# # Example usage
+# num = int(input("Enter a number to find its factors: "))
+# factors = find_factors(num)
+# print(f"The factors of {num} are: {factors}")
+5%2
