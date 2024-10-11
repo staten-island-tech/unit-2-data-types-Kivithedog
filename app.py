@@ -73,8 +73,17 @@ import string
 #             factors.append(i)
 #     return factors
 
-# # Example usage
 # num = int(input("Enter a number to find its factors: "))
-# factors = find_factors(num)
+# factors = detremine_factors(num)
 # print(f"The factors of {num} are: {factors}")
-5%2
+
+def gcf_calc(a,b)
+
+while b:
+        a, b = b, a % b
+    return a
+num1 = int(input("enter first number:"))
+num2 = int(input("enter second number:"))
+result = gcf_calc(num1, num2)
+
+print(f"the gcf of {num1} and {num2} is{result}")
