@@ -77,13 +77,16 @@ import string
 # factors = detremine_factors(num)
 # print(f"The factors of {num} are: {factors}")
 
-def gcf_calc(a,b):
+def gcf_calc():
     num1 = int(input("enter first number:"))
     num2 = int(input("enter second number:"))
-    min = min[a,b] + 1
-    for i in range (1,(min,(num1, num2)+1)):
-        if num1 %2 == 0 and num2 %2 == 0:
-            gcf = min
-print(f"the gcf of {num1} and {num2} is{min}")
+
+    min_value = min[num1, num2]
+    gcf = 1
+    
+for i in range(1, min_value + 1):
+        if num1 % i == 0 and num2 % i == 0:
+print(f"the gcf of {num1} and {num2} is{gcf_calc}")
 
 gcf_calc()
+
